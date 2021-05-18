@@ -843,7 +843,7 @@ APIs of Verifier and Validator are described as the following table:
 | 8. | Verifier | connect | `validatorURL`(string)<br>authentication credential | request a validator to start a bi-directional communication channel via a verifier |
 | 9. | Verifier | disconnect | none | request a validator to stop a bi-directional communication channel via a verifier |
 | 10. | Validator | getValidatorInformation | `validatorURL`(string) | Get the validator information including version, name, ID, and other information |
-| 11. | Verifier | getSmartContractList | none | Get the list of available smart contracts at the connected ledger |
+| 11. | Validator | getSmartContractList | none | Get the list of available smart contracts at the connected ledger |
 | 12. | Validator | sendSignedTransaction | `signedTransaction`(string) | Send already-signed transactions to a ledger |
 | 13. | Validator | getBalance | `address`(string) | Get balance of an account for native token on a ledger |
 | 14. | Validator | execSyncFunction | `address`(string)<br>`funcName`(string)<br>`args`(string[]) | Execute a synchronous function held by a smart contract |
